@@ -1,0 +1,190 @@
+
+/*公司简介开始*/
+
+.about_list>div{
+    width: 49%;
+}
+.about_list>div:first-child{
+    position: relative;
+}
+.about_list>div img{
+    display: block;
+    width: 76%;
+}
+.about_list>div:last-child p{
+    font:14px/37px '微软雅黑';
+    text-indent: 2em;
+}
+.about span{
+    background: url(../img/angle.png) no-repeat;
+    bottom: 0;
+}
+
+/*研发团队*/
+
+.service_list>div{
+    width: 45%;
+}
+
+.service_list>div p:first-child{
+    position: relative;
+    width:100%;
+    height:210px;
+}
+.service_list>div img{
+    display: block;
+    left:50%;
+    transform: translateX(-50%);
+}
+.service_list div p:last-child{
+    font:12px/32px '微软雅黑';
+}
+
+/*核心理念*/
+.heart{
+    position: relative;
+    background:#f5f5f5;
+    color:#666666;
+    padding: 90px 110px;
+    box-sizing: border-box;
+}
+.heart_title{
+    text-align: center;
+
+}
+.heart_title .p{
+    font-size:16px;
+    margin-bottom:40px;
+}
+.heart_title p{
+    font:14px/26px '微软雅黑';
+}
+
+.heart_list{
+    position: relative;
+    width: 100%;
+    height: 330px;
+    margin-top:50px;
+}
+.heart_list>div{
+    position: absolute;
+}
+.heart_list>div img{
+    position: absolute;
+    top:0;
+    left:0;
+}
+.heart_list>div img:last-child{
+    display: none;
+}
+.h_list1{
+    top:0;
+    left:0;
+    width: 213px;
+    height: 213px;
+}
+.h_list2{
+    top:113px;
+    left:113px;
+    width: 213px;
+    height: 213px;
+}
+.h_list3{
+    top:0;
+    left:226px;
+    width: 326px;
+    height: 326px;
+}
+.h_list4{
+    top:0;
+    left:453px;
+    width: 213px;
+    height: 213px;
+}
+.h_list5{
+    top:0;
+    left:566px;
+    width: 326px;
+    height: 326px;
+
+}
+.h_list6{
+    top:113px;
+    left:794px;
+    width: 213px;
+    height: 213px;
+}
+.h_list7{
+    top:0;
+    left:907px;
+    width: 213px;
+    height: 213px;
+}
+
+
+
+.heart span{
+    background: url(../img/angle_grey.png) no-repeat;
+   top:-35px;
+}
+/*合作伙伴*/
+.friend{
+    background: white;
+}
+.friend span{
+    background: url(../img/angle_white.png) no-repeat;
+    top: -25px;
+}
+
+/*乐软环境*/
+
+.service table tr td{
+    padding: 1px 3px;
+}
+
+/*我们的team*/
+
+.team{
+    background: white;
+}
+.team .about_title{
+    font:14px/26px '微软雅黑';
+    color:#666666;
+    padding:43px 0 80px;
+
+}
+.about_title img{
+    margin-bottom:30px;
+}
+.team .about_title .h3{
+    color: #189EEA;
+    padding:57px 0;
+}
+.team .a_s{
+    background: url(../img/angle_white_top.png) no-repeat;
+   top:-25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+ .app_model{
+
+    width:1160px;
+    height: 505px;
+    margin:80px auto ;
+    overflow: hidden;
+    position: relative;
+}
+.app_model ul{
+    width: 4000px;
+    position: absolute;
+    top:0;
+    right:0;
+
+}
+.app_model ul li{
+    float: right;
+    text-align: center;
+    font-size:14px;
+    margin-left:25px;
+}
+.app_model ul li a{
+    display: block;
+    width: 270px;
+    height: 480px;
+    position: relative;
+}
+.app_model ul li a .search{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    z-index: 99;
+    width:66px;
+    height: 66px;
+    display: none;
+    background:url("../img/search.png") no-repeat;
+
+}
+.app_model ul li img{
+    width: 100%;
+}

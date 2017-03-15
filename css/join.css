@@ -1,0 +1,58 @@
+
+.about_title p{
+    font:13px/32px '微软雅黑';
+    color:#666;
+}
+.about_title .p{
+    font-size:16px;
+    color: #189EEA;
+    padding-bottom:100px;
+}
+.about_title p i{
+    color: #189EEA;
+}
+.about_list>div{
+    width: 48%;
+}
+.about_list div:first-child{
+   /*height: 192px;*/
+    position: relative;
+}
+.about_list div img{
+    display: block;
+}
+.about_list div:last-child{
+    font: 14px/26px '微软雅黑';
+}
+.about_list div:last-child h3{
+    font-weight:bold;
+    font-size:20px;
+}
+.about_list div:last-child p{
+    font-size:16px;
+    margin:5px 0;
+}
+.about_list div:last-child ol,.about_list div:last-child ol li{
+    list-style-type: decimal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

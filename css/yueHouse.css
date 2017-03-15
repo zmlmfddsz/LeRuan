@@ -1,0 +1,50 @@
+.about{
+    padding:0 110px;
+    box-sizing: border-box;
+    position: relative;
+}
+.about_title{
+    width: 100%;
+    text-align:center;
+    color:#666;
+}
+.about_title h3,.p{
+    color: #189EEA;
+}
+.about_title p{
+    font:14px/26px '微软雅黑';
+}
+.about_title img{
+    display: inline-block;
+    margin:50px 0;
+}
+
+.about_list {
+    display: flex;
+    justify-content: space-between;
+    padding:70px 0;
+}
+
+
+.bgs{
+    width: 1920px;
+    margin-left: -410px;
+    background: url(../img/BudgetingBg.png) no-repeat;
+    background-size: 1920px;
+    height: 2100px;
+}
+.bgs img{
+    margin-left:410px;
+    width: 1009px;
+    height: 1101px;
+}
+
+.bg1{
+    margin-left: -110px;
+    width: 1349px;
+    background: url(../img/Daobg.png) ;
+}
+
+.bg1 img{
+    display: block;
+}

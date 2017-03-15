@@ -1,0 +1,497 @@
+/*公共区域*/
+body{
+    background: #f5f5f5;
+    min-width: 1200px;
+}
+span{
+    z-index: 10;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 72px;
+    height: 35px;
+}
+.h3{
+    font:42px/60px '微软雅黑';
+}
+.p{
+    font-size:18px;
+}
+
+
+/*标题开始*/
+
+header{
+    background: white;
+    padding:0 190px;
+    height: 80px;
+    line-height: 80px;
+}
+header img{
+    float: left;
+    width: 240px;
+}
+header ul{
+    float: right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    display: block;
+    text-align:center;
+    font:16px/50px '微软雅黑';
+    width: 100px;
+}
+header ul li i{
+    display: inline-block;
+    font:16px/50px '宋体';
+    transform: rotate(-90deg);
+    transition: all 0.5s linear;
+}
+header ul li:hover i{
+    transform: rotate(90deg);
+
+}
+.checked{
+
+    border-bottom:3px solid #006ec3;
+}
+.checked a{
+    color:#13a8ed;
+}
+
+
+/*标题结束*/
+
+
+
+/*背景图片开始*/
+
+.bg{
+    padding:0 15px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 590px;
+    box-sizing: border-box;
+}
+.bg>div{
+    /*width: 100%;*/
+    position: absolute;
+    top:0;
+    left: -300px;
+    display: none;
+}
+.bg .active{
+    display: block;
+}
+
+.bg>i{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    display: block;
+    width: 71px;
+    height: 71px;
+    text-align:center;
+    cursor: pointer;
+    background:url("../img/left.png") no-repeat rgba(0,0,0,0.1);
+    border-radius: 5px;
+
+}
+.bg>i:last-of-type{
+    right: 15px;
+    background:url("../img/right.png") no-repeat rgba(0,0,0,0.1);
+}
+.bg span{
+    bottom: 90px;
+    background: url(../img/angle_white.png) no-repeat;
+}
+/*背景图片结束*/
+
+
+
+/*底部开始*/
+footer{
+    background: #2d2f31;
+    color:#fdfdfd;
+    font-size:12px;
+    padding:50px 110px;
+}
+footer ul{
+    margin-bottom:3px;
+}
+footer li{
+    display: inline-block;
+}
+footer a{
+    color: #fdfdfd;
+    padding:0 7px;
+    border-right:1px solid  #fdfdfd;
+
+}
+footer li:last-of-type a{
+    border:none;
+}
+
+/*底部结束*/
+
+
+/*回到顶部*/
+.fix{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right:10px;
+    bottom:10px;
+    border-radius:5px;
+    display: none;
+    z-index: 1000;
+
+}
+.fix img{
+    border-radius:5px;
+}
+.fix div{
+    border-radius:5px;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 50px;
+    height: 50px;
+    background:rgba(192, 195, 197, 0.57);
+    z-index: 3;
+}
+.fix:hover div{
+    background:rgba(45, 47, 49, 0.02);
+}
+
+
+/*侧边栏*/
+.slide{
+    width: 170px;
+    height: 350px;
+    position: fixed;
+    bottom:40px;
+    right: -170px;
+    z-index: 999;
+    background:rgba(192, 195, 197, 0.6);
+    border-radius:5px 0 0 5px;
+    font-size:12px;
+}
+
+
+.slide .little{
+    width: 25px;
+    height: 110px;
+    background:skyblue;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left:-25px;
+    border-radius:5px 0 0 5px;
+    text-align: center;
+    color:white;
+    font:12px/27px '微软雅黑';
+    padding:0 5px;
+    box-sizing: border-box;
+    background: linear-gradient(to right,#54b5df,#2c7fc5);
+}
+
+.slide .slide_title{
+    font-size:14px;
+    overflow: hidden;
+    padding:10px;
+    border-bottom:1px solid #adadad;
+}
+.slide_title p{
+    float: left;
+    color:#006ec3;
+    position: relative;
+}
+.slide_title p:after{
+    content: '';
+    display: block;
+    width: 134%;
+    border-bottom: 3px solid #006ec3;
+    position: absolute;
+    left: -10px;
+    bottom: -11px;
+}
+.slide i{
+    float: right;
+    display: block;
+    width: 15px;
+    height: 15px;
+    background:#63a4de;
+    border:1px solid #29598c;
+    text-align: center;
+    line-height: 15px;
+    color:white;
+    cursor:pointer;
+}
+
+.slide ul{
+    padding:10px 18px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.slide ul li{
+    height:30px;
+}
+.slide ul li a{
+    overflow: hidden;
+    display: block;
+    line-height: 22px;
+}
+.slide ul li div{
+    float: left;
+
+}
+.slide ul li div:first-child{
+    width: 22px;
+    height: 22px;
+    margin-right:5px;
+}
+.slide ul li:nth-child(1) div:first-child{
+    background:url("../img/shareIcn.png") no-repeat -28px 0;
+}
+.slide ul li:nth-child(2) div:first-child{
+    background:url("../img/shareIcn.png") no-repeat -435px 0;
+}
+.slide ul li:nth-child(3) div:first-child{
+    background:url("../img/shareIcn.png") no-repeat -331px 0;
+}
+.slide ul li:nth-child(4) div:first-child{
+    background:url("../img/shareIcn.png") no-repeat -55px 0;
+}
+.slide ul li:nth-child(5) div:first-child{
+    background:url("../img/shareIcn.png") no-repeat 0 0;
+}
+.slide ul li:nth-child(6) div:first-child{
+    background:url("../img/shareIcn.png") no-repeat -139px 0;
+}
+.slide ul li:nth-child(7) div:first-child{
+    background:url("../img/shareIcn.png") no-repeat -83px 0;
+}
+.slide ul li:nth-child(8) div:first-child{
+    background:url("../img/shareIcn.png") no-repeat -252px 0;
+}
+.slide ul li:nth-child(9) div:first-child{
+    background:url("../img/shareIcn.png") no-repeat -304px 0;
+}
+.slide ul li:nth-child(10) div:first-child{
+    background:url("../img/shareIcn.png") no-repeat -410px 0;
+}
+
+
+/*微信二维码扫描*/
+
+.scan{
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+
+}
+.scan>div:first-child{
+    width: 100%;
+    height:100%;
+    background:rgba(0,0,0,0.5);
+}
+
+.scan>div:last-child{
+    z-index: 1111111;
+    background:white;
+    position: fixed;
+    top:100px;
+    left:430px;
+    padding:20px;
+    height: 480px;
+    width: 480px;
+    box-sizing: border-box;
+    font:14px/30px '微软雅黑';
+    text-align: center;
+
+}
+.scan>div:last-child p{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.scan>div:last-child h3{
+    position: absolute;
+    top: 65px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+.scan>div:last-child img{
+    display: block;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+/*动画部分*/
+
+.rotateIn {
+    -webkit-animation: rotateIn 1s .2s ease both;
+
+}
+
+@-webkit-keyframes rotateIn {
+    0% {
+        -webkit-transform-origin: center center;
+        -webkit-transform: rotate(-200deg);
+        opacity: 0
+    }
+    100% {
+        -webkit-transform-origin: center center;
+        -webkit-transform: rotate(0deg);
+        opacity: 1
+    }
+}
+
+.bounceIn {
+    -webkit-animation: bounceIn 1s .2s ease both;
+    -moz-animation: bounceIn 1s .2s ease both;
+}
+
+@-webkit-keyframes bounceIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.3)
+    }
+    50% {
+        opacity: 1;
+        -webkit-transform: scale(1.05)
+    }
+    70% {
+        -webkit-transform: scale(.9)
+    }
+    100% {
+        -webkit-transform: scale(1)
+    }
+}
+
+.fadeInLeftBig {
+    -webkit-animation: fadeInLeftBig 1s .2s ease both;
+    -moz-animation: fadeInLeftBig 1s .2s ease both;
+}
+
+@-webkit-keyframes fadeInLeftBig {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-2000px)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0)
+    }
+}
+
+.fadeInRightBig{
+    -webkit-animation:fadeInRightBig 1s .2s ease both;
+    -moz-animation:fadeInRightBig 1s .2s ease both;}
+@-webkit-keyframes fadeInRightBig{
+    0%{opacity:0;
+        -webkit-transform:translateX(2000px)}
+    100%{opacity:1;
+        -webkit-transform:translateX(0)}
+}
+
+
+.swing {
+    -webkit-animation: swing 1s .2s ease both;
+}
+
+@-webkit-keyframes swing {
+    20%, 40%, 60%, 80%, 100% {
+        -webkit-transform-origin: top center
+    }
+    20% {
+        -webkit-transform: rotate(15deg)
+    }
+    40% {
+        -webkit-transform: rotate(-10deg)
+    }
+    60% {
+        -webkit-transform: rotate(5deg)
+    }
+    80% {
+        -webkit-transform: rotate(-5deg)
+    }
+    100% {
+        -webkit-transform: rotate(0deg)
+    }
+}
+
+.flash{
+    -webkit-animation:flash 1s .2s ease both;
+    -moz-animation:flash 1s .2s ease both;}
+@-webkit-keyframes flash{
+    0%,50%,100%{opacity: 1;}
+    25%,75%{opacity: 0;}
+}
+
+.bounce{
+    -webkit-animation:bounce 1s .2s ease both;
+    -moz-animation:bounce 1s .2s ease both;}
+@-webkit-keyframes bounce{
+    0%,20%,50%,80%,100%{-webkit-transform:translateY(0)}
+    40%{-webkit-transform:translateY(-30px)}
+    60%{-webkit-transform:translateY(-15px)}
+}
+
+.pulse{
+    -webkit-animation:pulse 1s .2s ease both;
+    -moz-animation:pulse 1s .2s ease both;}
+@-webkit-keyframes pulse{
+    0%{-webkit-transform:scale(1)}
+    50%{-webkit-transform:scale(1.1)}
+    100%{-webkit-transform:scale(1)}
+}
+
+.flipInX{
+    -webkit-animation:flipInX 2s .2s ease both;
+    -moz-animation:flipInX 2s .2s ease both;}
+@-webkit-keyframes flipInX{
+    0%{-webkit-transform:perspective(400px) rotateX(90deg);
+        opacity:0}
+    40%{-webkit-transform:perspective(400px) rotateX(-10deg)}
+    70%{-webkit-transform:perspective(400px) rotateX(10deg)}
+    100%{-webkit-transform:perspective(400px) rotateX(0deg);
+        opacity:1}
+}
+
+.fadeInUp{
+    -webkit-animation:fadeInUp 1s .2s ease both;
+    -moz-animation:fadeInUp 1s .2s ease both;}
+@-webkit-keyframes fadeInUp{
+    0%{opacity:0;
+        -webkit-transform:translateY(20px)}
+    100%{opacity:1;
+        -webkit-transform:translateY(0)}
+}
+
+
+
+
+
+
+
+
+
+
+
+

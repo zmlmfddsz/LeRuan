@@ -1,0 +1,263 @@
+/*内容区开始*/
+
+/*关于我们*/
+.about {
+    padding: 0 110px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.about_title {
+    width: 100%;
+    text-align: center;
+    color: #189EEA;
+}
+
+.about_list {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+}
+
+.about_list > div {
+    /*text-align: center;*/
+    width: 200px;
+}
+
+.about_list > div p:last-of-type {
+    font: 12px/20px '微软雅黑';
+    color: #666666;
+}
+
+.about_list a {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 155px;
+
+}
+
+.about_list img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.about_list .show {
+    display: block;
+}
+
+.about span {
+    background: url(../img/angle.png) no-repeat;
+    bottom: 0;
+}
+
+/*关于我们结束*/
+
+/*服务项目开始*/
+
+.service {
+    position: relative;
+    background: #13a8ed;
+    color: white;
+    padding: 90px 110px;
+    box-sizing: border-box;
+}
+
+.service_title {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.service_list {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.service_list div span {
+    display: block;
+    position: relative;
+    width: 250px;
+    height: 350px;
+
+}
+
+.service_list img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.service_list .show_m {
+    display: block;
+}
+
+/*服务项目结束*/
+/*成功案例*/
+.service_bottom {
+    padding: 50px 110px;
+}
+
+.service table tr td {
+    position: relative;
+    width: 275px;
+    height: 190px;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.service table tr td a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.service table tr td img {
+    height: 100%;
+    width: 100%;
+}
+
+.service table + span {
+    background: url("../img/angle.png") no-repeat;
+    top: -35px;
+}
+
+.service table i {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*合作伙伴开始*/
+.friend {
+    padding-top: 70px;
+    position: relative;
+}
+
+.friends {
+    width: 1080px;
+    margin: 0 auto;
+    padding: 90px 0;
+}
+
+.friend span {
+    background: url("../img/angle_white.png") no-repeat;
+    top: -35px;
+}
+
+/*合作伙伴结束*/
+/*联系我们开始*/
+.ours {
+    position: relative;
+    padding: 100px 130px 85px;
+    color: #c0c3c5;
+    font-size: 14px;
+    background: url("../img/map.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.content_left {
+    float: left;
+}
+
+.content_left ul li {
+    margin: 7px 0;
+}
+
+.content_left ul li .span {
+    /*display: inline-block;*/
+    float: left;
+    text-align: right;
+    margin-right: 10px;
+    width: 60px;
+}
+
+.content_left ul li > div {
+    float: left;
+}
+
+.content_left input {
+    width: 135px;
+    height: 25px;
+    border: none;
+    outline: none;
+    text-indent: 3px;
+}
+
+.content_left .yanzheng {
+    width: 60px;
+}
+
+.content_left .canvas {
+    height: 25px;
+    width: 70px;
+    vertical-align: middle;
+    margin-top: -3px;
+    cursor: pointer;
+}
+
+.content_left textarea {
+    width: 420px;
+    height: 55px;
+    resize: none;
+    text-indent: 3px;
+}
+
+.content_left i {
+    color: red;
+}
+
+.content_left .btn {
+    margin-left: 70px;
+}
+
+.content_left .btn button {
+    padding: 3px 5px;
+    background: linear-gradient(to top, #54b5df, #2c7fc5);
+    color: white;
+    outline: none;
+    border-radius: 3px;
+}
+
+.content_left .btn:hover button {
+    background: linear-gradient(to bottom, #54b5df, #2c7fc5);
+}
+
+.content_right {
+    float: right;
+}
+
+.content_right img {
+    vertical-align: middle;
+}
+
+.content_right li {
+    line-height: 40px;
+}
+
+.ours span {
+    background: url("../img/angle_black.png") no-repeat;
+    top: -20px;
+}
+
+.show_list {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: rgba(109, 100, 109, 0.46);
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    display: none;
+}
+
+/*联系我们结束*/
+/*内容区结束*/

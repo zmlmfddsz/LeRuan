@@ -1,0 +1,172 @@
+.about_list {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0 100px;
+}
+.about_list>div{
+    /*text-align: center;*/
+    width: 265px;
+}
+.about_list a {
+    position: relative;
+    display: block;
+    width: 265px;
+    height: 210px;
+}
+
+/*APP模块开始*/
+
+.service .app_model{
+    width:1160px;
+    height: 220px;
+    margin:0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.app_model ul{
+    width: 4000px;
+   position: absolute;
+    top:0;
+    right:0;
+
+}
+.app_model ul li{
+    float: right;
+    width: 230px;
+}
+.app_model ul li img{
+    width: 90%;
+}
+
+
+/*服务流程开始*/
+.process{
+    position: relative;
+   width: 100%;
+    margin:0 auto;
+    background:url("../img/serviceImg/serviceBg.png") no-repeat -286px 0;
+    background-size:1920px;
+    height:880px;
+    padding:90px 0;
+}
+.process_title{
+    text-align: center;
+}
+.process_list{
+    width: 100%;
+    position: relative;
+    height:885px;
+}
+.process_list div{
+    position: absolute;
+}
+.process_list div img{
+    position: absolute;
+    top:0;
+    left:0;
+}
+.process_list div img:last-child{
+    display: none;
+}
+.process_list div:nth-child(1){
+    top:345px;
+    left:105px;
+    width: 227px;
+    height: 214px;
+}
+.process_list div:nth-child(2){
+    top: 140px;
+    left: 445px;
+    width: 225px;
+    height: 215px;
+}
+.process_list div:nth-child(3){
+    top: 365px;
+    left: 565px;
+    width: 225px;
+    height: 210px;
+}
+.process_list div:nth-child(4){
+    top: 145px;
+    left: 805px;
+    width: 134px;
+    height: 235px;
+}
+.process_list div:nth-child(5){
+    top: 360px;
+    left: 1000px;
+    width: 248px;
+    height: 184px;
+}
+.process_list div:nth-child(6){
+    top: 620px;
+    left: 850px;
+    width: 395px;
+    height: 110px;
+}
+
+.process span{
+    background:url("../img/angle_deep_grey.png") no-repeat;
+    top:-25px;
+}
+
+
+/*文档管理*/
+.Management{
+    position: relative;
+    background:#f5f5f5;
+    padding:90px 0;
+}
+.Management_title{
+    text-align: center;
+    color:#189eea;
+}
+.Management_title .p{
+    font-size:14px;
+}
+.Management_img{
+    width: 1155px;
+    margin:0 auto;
+    padding-top:80px;
+}
+.Management_img img{
+    width: 100%;
+}
+
+.Management span{
+    background: url("../img/angle_white_top.png");
+    top:-25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
